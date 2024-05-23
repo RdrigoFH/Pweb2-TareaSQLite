@@ -1,0 +1,25 @@
+
+body {
+
+   color: #000101;
+ }
+ 
+ h1 {
+   text-align: center;
+   padding: 20px;
+   background-color: rgba(33, 220, 208, 0.992);
+   border-radius: 5px;
+ }
+ 
+ button#loadMovies {
+   background-color: #3aa6cd;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 5px;
+   margin: 20px;
+ }
+ 
