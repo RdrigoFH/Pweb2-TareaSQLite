@@ -23,3 +23,30 @@ body {
    margin: 20px;
  }
  
+ ul#moviesList {
+   list-style: none;
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+ ul#moviesList li {
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   padding: 10px;
+   margin: 10px;
+   width: 300px;
+   text-align: center;
+ }
+ 
+ ul#moviesList li h2 {
+   margin: 0;
+   padding: 0;
+   font-size: 24px;
+ }
+ 
+ ul#moviesList li p {
+   margin: 10px 0;
+   font-size: 18px;
+ }
