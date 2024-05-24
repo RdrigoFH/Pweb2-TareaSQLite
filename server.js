@@ -10,11 +10,11 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/movies', (req, res) => {
-   db.all('SELECT * FROM Movie', [], (err) => {
+   db.all('SELECT * FROM Movie', [], (err, rows) => {
        if (err) {
            res.status(400).json({ error: err.message });
            return;
        }
-       res.json({  rows });
+       res.json({ data: rows });
    });
 });
