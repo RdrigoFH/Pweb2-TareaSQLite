@@ -18,3 +18,7 @@ app.get('/movies', (req, res) => {
        res.json({ data: rows });
    });
 });
+
+app.listen(port, () => {
+    console.log(`Servidor ejecutándose en http://localhost:${port}`);
+});
